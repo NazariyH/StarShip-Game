@@ -177,7 +177,7 @@ restartFont = pygame.font.Font('fonts/Anton-Regular.ttf', 50)  # Connect font
 gameover_text = finishFont.render(
     'GAME OVER', True, (255, 255, 255))  # Create finish text
 restart_text = restartFont.render(
-    'pres Left Shift to restart', True, (255, 255, 255))  # Create restart text
+    'press Left Shift to restart', True, (255, 255, 255))  # Create restart text
 
 
 meteorite_timer = pygame.USEREVENT + 1
